@@ -17,6 +17,9 @@ media/
 venv/
 env/
 
+# python-dotenv
+.env
+
 # VS Code
 .vscode/
 

@@ -9,12 +9,12 @@ from rest_framework import permissions
 class MenuItemViews(generics.ListCreateAPIView):
     queryset = Menu.objects.all()
     serializer_class = MenuSerializer
-    permission_classes = [permissions.IsAuthenticated]
+
 
 class SingleMenuView(generics.RetrieveUpdateDestroyAPIView):
     queryset = Menu.objects.all()
     serializer_class = MenuSerializer
-    permission_classes = [IsAuthenticated]
+
 
 class BookingViews(generics.ListCreateAPIView):
     queryset = Booking.objects.all()

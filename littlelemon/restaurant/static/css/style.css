@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(196, 242, 109);
+}
+
+.heading {
+    color: black;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+#logo {
+    align-items: center;
+    align-content: center;
+}
+
